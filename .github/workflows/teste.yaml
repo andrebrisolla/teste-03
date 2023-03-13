@@ -1,4 +1,6 @@
-on: workflow_dispatch
+on:
+  pull_request:
+    types: opened
 name: testando 02
 jobs:
   testando01:
